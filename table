@@ -1,0 +1,44 @@
+#include <stdio.h>
+int main()
+{
+  float suresh_bp, suresh_da, suresh_net;
+  float asar_bp, asar_da, asar_net;
+  float kasthuri_bp, kasthuri_da, kasthuri_net;
+  
+
+  printf("Enter Suresh Basic Pay:");
+  scanf("%f", &suresh_bp);
+  printf("Enter Asar Basic Pay:");
+  scanf("%f", &asar_bp);
+  printf("Enter Kasthuri Basic Pay:");
+  scanf("%f", &kasthuri_bp);
+ 
+    
+  /* SURESH CALCULATION*/
+  suresh_da = suresh_bp * 15.0/100;
+  suresh_net = suresh_bp + suresh_da;
+  
+   /* ASAR CALCULATION*/
+
+  asar_da = asar_bp * 15.0/100;
+  asar_net = asar_bp + asar_da;
+  
+   /* KASTHURI CALCULATION*/
+
+  kasthuri_da = kasthuri_bp * 15.0/100;
+  kasthuri_net = kasthuri_bp + kasthuri_da;
+  
+  printf ("               IPLON STAFFS SALARY PAY FOR MARCH - 2017                     ");
+  printf ("\n--------------------------------------------------------------------------");
+  printf ("\n--------------------------------------------------------------------------");
+  printf ("\n S.no   Name of Employee         Basic pay        da              Net salary");
+  printf ("\n 1      SURESH                   %.2f        %.2f             %.2f", suresh_bp,  suresh_da,    suresh_net);
+  printf ("\n 2      ASAR                     %.2f        %.2f             %.2f",asar_bp,     asar_da,         asar_net);    
+  printf ("\n 3      KASTHURI                 %.2f        %.2f             %.2f",kasthuri_bp,kasthuri_da,kasthuri_net); 
+  printf ("\n--------------------------------------------------------------------------");
+  printf ("\n--------------------------------------------------------------------------");
+  
+         
+}
+
+
