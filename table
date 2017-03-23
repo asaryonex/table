@@ -28,11 +28,6 @@ int main()
   kasthuri_da = kasthuri_bp * 15.0/100;
   kasthuri_net = kasthuri_bp + kasthuri_da;
   
-  /* KARTHI CALCULATION*/
-
-  karthi_da = karthi_bp * 15.0/100;
-  karthi_net = karthi_bp + karthi_da;
-  
   printf ("               IPLON STAFFS SALARY PAY FOR MARCH - 2017                     ");
   printf ("\n--------------------------------------------------------------------------");
   printf ("\n--------------------------------------------------------------------------");
@@ -40,7 +35,6 @@ int main()
   printf ("\n 1      SURESH                   %.2f        %.2f             %.2f", suresh_bp,  suresh_da,    suresh_net);
   printf ("\n 2      ASAR                     %.2f        %.2f             %.2f",asar_bp,     asar_da,         asar_net);    
   printf ("\n 3      KASTHURI                 %.2f        %.2f             %.2f",kasthuri_bp,kasthuri_da,kasthuri_net); 
-  printf ("\n 3      KARTHI                 %.2f        %.2f             %.2f",karthi_bp,karthi_da,karthi_net);
   printf ("\n--------------------------------------------------------------------------");
   printf ("\n--------------------------------------------------------------------------");
   
